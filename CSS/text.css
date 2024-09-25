@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto; padding: 0;
+}
+.wrapper{
+    width: 960px;
+    height: 750px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+header img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+    left: 160px;
+}
+nav ul li a{
+    color: cadetblue;
+    text-decoration: none;
+}
+nav #sign{
+    position: relative;
+    background-color: white;
+    border: none;
+    margin-left: 800px;
+    top: -90px;
+}
+nav #submit{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: -90px;
+    margin-left: 20px;
+    background-color: palevioletred;
+    border: palevioletred;
+    color: white;
+}
+li:hover{
+    font-weight: bold;
+    font-style: italic;
+}
+ul li:hover{
+    color: red;
+    background-color: black;
+}
+a:hover{
+    color: red;
+}
+.container{
+    width: 100%;
+    height: 500px;
+
+}
+aside{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.p1{
+    margin-left: 80px;
+    font-size: 40px;
+}
+.p2{
+    color: cadetblue;
+    margin-left: 80px;
+}
+aside img{
+    width: 350px;
+    margin-left: 70px;
+}
+section{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.last{
+    margin-top: -37px;
+    margin-left: 200px;
+}
+#Submit{
+    width: 385px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: palevioletred;
+    border: none;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 148px;
+    background-color: whitesmoke;
+}
+footer img{
+    margin-left: 75px;
+    margin-top: 40px;
+}
+footer .p3{
+    position: absolute;
+    top: 650px;
+    margin-left: 300px;
+    font-size: 18px;
+}
+footer .p4{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 400px;
+    margin-top: -65px;
+}
+footer .p5{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 520px;
+    margin-top: -60px;
+}
+footer .p6{
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -60px;
+    font-size: 18px;
+}
+footer #email{
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -10px;
+}
+footer #subscri{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    margin-left: 839px;
+    margin-top: -10px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+}
